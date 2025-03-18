@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Page</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          line-height: 1.6;
+          color: #333;
+          background-color: #f4f4f4;
+          padding: 20px;
+        }
+
+        .container {
+          max-width: 1100px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #header {
+          text-align: center;
+          margin-bottom: 30px;
+          padding: 20px;
+          background-color: #3498db;
+          color: #fff;
+          border-radius: 5px;
+        }
+
+        h1 {
+          font-size: 36px;
+          font-weight: 700;
+          font-family: 'Georgia', serif;
+          margin-bottom: 10px;
+        }
+
+        h2 {
+          font-size: 24px;
+          font-weight: 600;
+          color: #2c3e50;
+          margin: 20px 0 10px 0;
+          padding-bottom: 5px;
+          border-bottom: 2px solid #3498db;
+        }
+
+        p {
+          margin-bottom: 15px;
+          line-height: 1.8;
+        }
+
+        a {
+          color: #3498db;
+          text-decoration: none;
+          transition: color 0.3s ease;
+        }
+
+        a:hover {
+          color: #2980b9;
+          text-decoration: underline;
+        }
+
+        .feature-image {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 20px auto;
+          border: 5px solid #3498db;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav {
+          background-color: #2c3e50;
+          padding: 10px;
+          border-radius: 5px;
+          margin-bottom: 20px;
+        }
+
+        .nav ul {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+        }
+
+        .nav li {
+          margin: 0 15px;
+        }
+
+        .nav a {
+          color: #fff;
+          font-weight: 600;
+          text-transform: uppercase;
+          font-size: 14px;
+          letter-spacing: 1px;
+        }
+
+        .nav a:hover {
+          color: #3498db;
+          text-decoration: none;
+        }
+
+        
+        .section {
+          margin-bottom: 30px;
+          padding: 20px;
+          background-color: #f9f9f9;
+          border-left: 4px solid #3498db;
+          border-radius: 0 5px 5px 0;
+        }
+
+        
+        .btn {
+          display: inline-block;
+          background-color: #3498db;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+          margin-top: 10px;
+          transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+          background-color: #2980b9;
+        }
+
+        
+        #footer {
+          text-align: center;
+          padding: 20px;
+          margin-top: 30px;
+          background-color: #2c3e50;
+          color: #fff;
+          border-radius: 5px;
+          font-size: 14px;
+        }
+
+        
+        .highlight {
+          background-color: #fffacd;
+          padding: 15px;
+          border-radius: 5px;
+          margin-bottom: 15px;
+          border: 1px solid #e6e0b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <h1>Welcome to My Styled Page</h1>
+            <p>A demonstration of CSS styling techniques</p>
+        </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="section">
+            <h2>About Our Company</h2>
+            <p>Welcome to our website! We're dedicated to providing high-quality services and products to our customers.</p>
+            <div class="highlight">
+                <p>We've been in business for over 10 years and have served thousands of satisfied customers.</p>
+            </div>
+            <img src="https://via.placeholder.com/600x400" alt="Company Office" class="feature-image">
+            <p>Our team consists of experienced professionals who are passionate about what they do.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="section">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of services tailored to meet your needs:</p>
+            <ul>
+                <li>Web Design and Development</li>
+                <li>Digital Marketing</li>
+                <li>Content Creation</li>
+                <li>SEO Optimization</li>
+            </ul>
+            <a href="#" class="btn">View Services</a>
+        </div>
+
+        <footer id="footer">
+            <p>&copy; 2025 My Company. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
